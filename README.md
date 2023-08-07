@@ -4,7 +4,7 @@ Uploading Files to AWS S3 with Multer and Node.js and storing the file informati
 
 ## Create an account on Amazon S3
 
-[Create an account](https://www.google.com](https://aws.amazon.com/pm/serv-s3/)
+[Create an account](https://aws.amazon.com/pm/serv-s3/)
 
 ## Example .env
 
