@@ -4,7 +4,24 @@ Uploading Files to AWS S3 with Multer and Node.js and storing the file informati
 
 ## Create an account on Amazon S3
 
+Create your free account on Amazon S3
 [Create an account](https://aws.amazon.com/pm/serv-s3/)
+
+Create your bucket and set Bucket policy to this:
+
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:*",
+            "Resource": "arn:aws:s3:::{nameOfYourBucket}/*"
+        }
+    ]
+}
+```
 
 ## Example .env
 
