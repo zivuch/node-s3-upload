@@ -1,10 +1,14 @@
 # Uploading Files to AWS S3 with NodeJS
 
-Uploading Files to AWS S3 with Multer and the Node.js and store the file infotmation in postgres database
+Uploading Files to AWS S3 with Multer and Node.js and storing the file information in postgres database
+
+## Create an account on Amazon S3
+
+[Create an account](https://www.google.com](https://aws.amazon.com/pm/serv-s3/)
 
 ## Example .env
 
-In the project directory, you have an .env.example file
+In the project directory, you have a .env.example file
 
 ```
 DB_HOST=
@@ -31,7 +35,7 @@ create table uploads(
 )
 ```
 
-### `npm inatall`
+### `npm install`
 
 run 'npm i' in both server (root) and client folder  
 
