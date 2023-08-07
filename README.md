@@ -1,6 +1,6 @@
 # Uploading Files to AWS S3 with NodeJS
 
-Uploading Files to AWS S3 with Multer and Node.js and storing the file information in postgres database
+Adding Files to AWS S3 using Multer and Node.js, and saving file details in a PostgreSQL database.
 
 ## Create an account on Amazon S3
 
