@@ -7,7 +7,11 @@ Adding Files to AWS S3 using Multer and Node.js, and saving file details in a Po
 Create your free account on Amazon S3
 [Create an account](https://aws.amazon.com/pm/serv-s3/)
 
-Create your bucket and set Bucket policy to this:
+###Create your bucket 
+
+1. Choose ACLs enabled.
+
+2. Set Bucket policy to
 
 ```
 {
